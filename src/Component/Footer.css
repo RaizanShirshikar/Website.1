@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+/* font-family: 'Vidaloka', serif; */
+footer{
+width: 100%;
+    background-color: #607274;
+    bottom: 0;
+    position: relative;
+    color: white;
+    border-top: 10px ;
+    
+    padding: 0px 0 30px; 
+   line-height: 20px;
+}
+
+.Row{
+    padding-top: 25px;
+    align-items: flex-start;
+    width: 80%;
+    bottom: 0;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+ .Cols1{
+    flex-basis: 25%;
+ margin-left: 55px;
+ }
+
+ 
+  .logo{
+   
+    width: 100px;
+    border-radius: 25px;
+    margin:  20px 80px;
+    font-size: 13px;
+  }
+ 
+
+  .Cols h3{
+    position: relative;
+    width: fit-content;
+margin-bottom: 40px;
+  }
+  .email{
+    width: fit-content;
+margin: 20px 0;
+cursor: pointer;
+border-bottom: 1px solid white;  
+}
+.links ul {
+
+    padding-left: 0rem;
+}
+.links ul li{
+    list-style: none;
+margin-bottom: 12px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+font-size: 16px;
+}
+
+.form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-bottom: 1px solid#ccc;
+    margin-bottom: 50px;
+}
+
+.form .far{
+    font-size: 18px;
+    margin-right: 10px;
+}
+.input::placeholder{
+    color: white;
+}
+.form .input{
+    width: 100%;
+   background: #607274;
+    border: 0;
+    color: white;
+    outline: none;
+}
+.form button {
+
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+.form .button .fas{
+    font-size: 16px;
+    color: #ccc;
+}
+.social-1 .fa-brands{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 18px;
+    font-size: 30px;
+    color: #000;
+    background-color: #fff;
+    margin-right: 10px;
+    padding: 12px 0;
+    cursor: pointer;
+}
+#hr{
+    display: none;
+}
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 2px solid #ccc;
+    margin: 20px auto;
+
+
+}
+
+.copyright{
+    text-align: center;
+}
+
+@media screen and (max-width:800px){
+    footer{
+        bottom: unset;
+    }
+    .Cols1{
+        flex-basis: 100%;
+        margin: 45px;
+    }
+   
+   
+    #col3{
+        flex-basis: 70%;
+        margin: 45px;
+    }}

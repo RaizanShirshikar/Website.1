@@ -1,0 +1,20 @@
+ /*
+bgc: #FAEED1
+
+ // normal text//
+font-size: 1vw;
+ font-style: italic;
+        font-size: 1vw;
+  @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500;1,700&display=swap');
+<
+font color:  #607274
+font-family: 'Lora', serif;
+font-family: 'Oswald', sans-serif;
+
+
+heading 
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap');
+        font-size: 3vw;
+        font-weight: 600;
+font-family: 'Lora', serif;

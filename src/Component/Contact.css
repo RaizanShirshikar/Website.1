@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+.container1 h1{
+    font-family: 'Vidaloka', serif;
+color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fulbody{
+    background-color: #dedec9;
+}
+.Main-1{
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.Main-1 img{
+ width: 250px;
+
+ height: 250px;
+}
+.Main-1 p{justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    color: black;
+    font-family: 'Vidaloka', serif;
+
+}
+
+
+
+
+.container2{
+    margin: 0 10px;
+    width: 90%;
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+}
+.left{
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+form h3{font-family: 'Vidaloka', serif;
+
+    color: black;
+    margin-left: 110px;
+    font-size: 25px;
+}
+ 
+input{
+    border-radius: 15px;
+    justify-content: center;
+    margin-bottom: 10px;
+    height: 35px;
+    width: 150% ;
+  text-align: center;
+    
+}
+#Message{  
+      text-align:left;
+      border-radius: 5px;
+   height: 80px;
+
+}
+
+
+    .button{align-items: center;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        height: 45px;
+      border-radius: 25px;
+background-color: white;
+color: black;
+        width: 100%; 
+        margin-left: 30%;  
+        
+    }
+h1{
+    color: black;
+
+}
+  
+    .h3{
+        color: black;
+
+        font-size: 20px;
+    }
+
+    .p{
+        color: black;
+
+
+    }
+    .h5{
+        
+        color: black;
+
+       font-size: 18px;
+    }
+    .fa-brands{
+        font-size: 35px;
+        padding: 8px;  
+        cursor: pointer;
+    }
+    .map{
+        
+       margin: 12px 10%;
+        width: 80%;
+        height: 350px;
+    } 
+
+
+    @media screen and (max-width:800px){
+        .container2{
+          display: grid;
+          grid-template-columns: 1fr;
+         }
+         .container1 h1{
+font-size: 2rem;
+         }
+         .container1 p{
+            font-size: 1rem;
+                     }
+         .Main-1 img {
+            width: 128px;
+           margin-left: 40%;
+            height: 138px;
+        }
+        .Main-1 {
+            display: flex;
+            flex-direction: column;}
+            #col22 {
+                margin-top: 25px;
+                display: flex;
+                flex-direction: column;
+                margin-left: 20%;}
+                
+                .left{
+    display: flex;
+   margin-right: 100px;
+            }
+    }

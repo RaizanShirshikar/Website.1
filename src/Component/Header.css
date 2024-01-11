@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+.sec1 img{
+    width: 100%;
+    height: 100%;   
+    border-bottom:  solid #dadada;
+    
+    
+    }
+    
+    .sec1 h1{
+        font-size: 3vw;
+        font-weight: 600;
+        color:  black;
+
+    align-items: center;
+font-family: 'Vidaloka', serif;
+
+    text-align: center;}
+    .sec1 p{
+        color: black;
+        
+font-family: 'Vidaloka', serif;
+       
+        font-size: 1vw;
+   
+    text-align: center;
+        
+     
+    
+    }
+.sec2{
+    height: 50px;
+}
+    
+ 
+@media screen and (max-width:800px){
+    
+.sec1 h1{
+    font-size: 4vw;
+    font-weight: 600;}
+
+.sec1 p{
+    text-align: justify;
+    font-size: 2vw;
+padding: 0;
+/* // making remaing // */
+    font-weight: 00;
+
+
+}
+
+
+}
+/* .carousel img{
+   
+    width:90%;
+    height:80vh;
+    object-fit: cover;
+  } */
+
+  .carousel h5{
+    color: white;
+    font-size: 3vw;
+    font-weight: 600;
+    font-family: 'Vidaloka', serif;
+
+
+  }

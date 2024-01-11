@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+nav{
+    
+background-color: #607274;
+    height: 80px;
+    border-bottom: 2px solid #dedec9;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+
+}
+.sidebar{
+position: fixed;
+top: 0;
+right: 0;
+color: black;
+width: 200px;
+z-index: 999;
+height: 100%;
+backdrop-filter: blur (10px);
+  display: none;
+background-color: #6072748f;
+box-shadow: -10px 0 10px rgba(152, 132, 132, 0.621);
+
+flex-direction: column;
+align-items:flex-start;
+
+
+}
+.sidebar link{ 
+
+width: 120%;
+}
+.logo img{
+ 
+    object-fit: contain;
+    border-radius: 10px;
+    height: 60px;
+}
+.logo a{
+    margin-left: 55px;
+    font-weight: 700;
+    font-size: 45px;
+font-family: 'Vidaloka', serif;
+
+
+    text-align: center;
+    color: white ;
+    text-decoration: none;
+  
+}
+
+.Nav-items {
+    font-size: 20px;
+    padding-right: 3vw;
+    font-family: 'Vidaloka', serif;
+
+    display: flex;
+   
+}
+.Nav-items a:hover{
+    background-color: #58696b;
+}
+
+.sidebar a:hover{   
+     background-color: #58696b;
+
+}
+.Nav-items a{
+    font-weight: 700;
+    text-decoration: none;
+    color: white ;
+    padding: 10px;
+cursor: pointer;
+}
+
+.sidebar a{
+    font-weight: 700;
+    text-decoration: none;
+    color: white ;
+    padding: 10px;
+cursor: pointer;
+}
+.Nav-items i{
+    display: none;
+}
+.Nav-items i{
+    font-weight: 700;
+    text-decoration: none;
+    color: white ;
+    padding: 10px;
+    margin-top: 5px;
+cursor: pointer;
+    display: none;
+}
+
+.sidebar i{
+    display: flex;
+    font-weight: 700;
+    font-size: 21px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    margin-left: 80%;
+    /* display: none; */
+}
+
+@media  (max-width:900px){
+
+    #menubar{
+        display: flex;
+    }
+    
+    .logo img{
+margin-left: -50px;
+
+    }
+    .Nav-items i{
+        display: flex;
+    }
+    
+ .logo a{
+   font-size: 1.5rem;
+margin-left: 25%;
+margin-top: 15px;
+    
+    }
+   
+    .menubar{
+        font-size: 25px;
+        color: white; ;
+    }
+.menu{
+    display: none;
+}
+
+}
